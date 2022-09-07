@@ -22,6 +22,7 @@
 		FA2FE9C1289BCBDC00A2C450 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2FE9C0289BCBDC00A2C450 /* ContentView.swift */; };
 		FA2FE9C3289BD61800A2C450 /* ContentViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2FE9C2289BD61800A2C450 /* ContentViewRow.swift */; };
 		FAC7338B28C8AD3500BED611 /* CodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC7338A28C8AD3500BED611 /* CodeTextView.swift */; };
+		FAC733A928C8DAE500BED611 /* RectangleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC733A828C8DAE500BED611 /* RectangleCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		FA2FE9C0289BCBDC00A2C450 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA2FE9C2289BD61800A2C450 /* ContentViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewRow.swift; sourceTree = "<group>"; };
 		FAC7338A28C8AD3500BED611 /* CodeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTextView.swift; sourceTree = "<group>"; };
+		FAC733A828C8DAE500BED611 /* RectangleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				FA2FE9C2289BD61800A2C450 /* ContentViewRow.swift */,
 				FA07762B28B7C3790069739A /* ContentDetailView.swift */,
 				FAC7338A28C8AD3500BED611 /* CodeTextView.swift */,
+				FAC733A828C8DAE500BED611 /* RectangleCard.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 				FAC7338B28C8AD3500BED611 /* CodeTextView.swift in Sources */,
 				FA2FE9C3289BD61800A2C450 /* ContentViewRow.swift in Sources */,
 				FA2FE9B7289A7A1400A2C450 /* ContentModel.swift in Sources */,
+				FAC733A928C8DAE500BED611 /* RectangleCard.swift in Sources */,
 				FA2FE9BD289A888200A2C450 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
