@@ -22,6 +22,8 @@ struct ContentDetailView: View {
                     .cornerRadius(10)
             }
             
+            CodeTextView()
+            
             if model.hasNextLesson() {
                 Button(action: {
                     model.nextLesson()
@@ -41,6 +43,7 @@ struct ContentDetailView: View {
             }
         }
         .padding()
+        .navigationBarTitle(lesson?.title ?? "")
     }
 }
 
