@@ -87,7 +87,7 @@ class ContentModel: ObservableObject {
         for index in 0..<modules.count {
             
             if modules[index].id == moduleid {
-            
+                
                 // Found the matching module
                 currentModuleIndex = index
                 break
@@ -152,6 +152,27 @@ class ContentModel: ObservableObject {
             // Set the question content
             codeText = addStyling(currentQuestion!.content)
         }
+    }
+    
+    func nextQuestion() {
+        
+        // Advance the question index
+        currentQuestionIndex += 1
+        
+        // Check that it's within the range of questions
+        if currentQuestionIndex < currentModule!.test.questions.count {
+            
+            currentQuestion = currentModule!.test.questions[currentQuestionIndex]
+            codeText = addStyling(currentQuestion!.content)
+            
+        }
+        else {
+            currentLessonIndex = 0
+            currentLesson = nil
+        }
+        
+        // If not, than reset the properties
+        
     }
     
     // MARK: - Code Styling
