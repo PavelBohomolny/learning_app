@@ -24,6 +24,7 @@
 		FAC7338B28C8AD3500BED611 /* CodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC7338A28C8AD3500BED611 /* CodeTextView.swift */; };
 		FAC733A928C8DAE500BED611 /* RectangleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC733A828C8DAE500BED611 /* RectangleCard.swift */; };
 		FAC733AB28C9F8C200BED611 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC733AA28C9F8C100BED611 /* TestView.swift */; };
+		FAC733AD28CF393C00BED611 /* TestResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC733AC28CF393C00BED611 /* TestResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		FAC7338A28C8AD3500BED611 /* CodeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTextView.swift; sourceTree = "<group>"; };
 		FAC733A828C8DAE500BED611 /* RectangleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleCard.swift; sourceTree = "<group>"; };
 		FAC733AA28C9F8C100BED611 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		FAC733AC28CF393C00BED611 /* TestResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				FAC7338A28C8AD3500BED611 /* CodeTextView.swift */,
 				FAC733A828C8DAE500BED611 /* RectangleCard.swift */,
 				FAC733AA28C9F8C100BED611 /* TestView.swift */,
+				FAC733AC28CF393C00BED611 /* TestResultView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAC733AB28C9F8C200BED611 /* TestView.swift in Sources */,
+				FAC733AD28CF393C00BED611 /* TestResultView.swift in Sources */,
 				FA2FE9A6289A783000A2C450 /* HomeView.swift in Sources */,
 				FA2FE9BF289AB49100A2C450 /* HomeViewRow.swift in Sources */,
 				FA07763128B7CE080069739A /* Constans.swift in Sources */,
