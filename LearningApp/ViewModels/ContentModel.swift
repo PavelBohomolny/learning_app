@@ -83,7 +83,7 @@ class ContentModel: ObservableObject {
     
     func getRemoteData() {
         
-        let urlString = "https://pavelbohomolny.github.io/learningapp-data/data2.json"
+        let urlString = "https://pavelbohomolny.github.io/learning_app_data/data2.json"
         
         let url = URL(string: urlString)
         
@@ -173,6 +173,10 @@ class ContentModel: ObservableObject {
     }
     
     func hasNextLesson() -> Bool {
+        
+        guard currentModule != nil else {
+            return false
+        }
         
         return (currentLessonIndex + 1 < currentModule!.content.lessons.count)
     }
